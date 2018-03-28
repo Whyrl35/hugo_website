@@ -27,3 +27,5 @@ fi
 
 sudo hugo -s $WORKING_DIRECTORY -d $PUBLIC_WWW -b $WEBSITE
 sudo chown www-data:www-data -R $PUBLIC_WWW
+
+rsync -apv ${PUBLIC_WWW}/* mutu:~/mutu/
