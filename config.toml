@@ -89,7 +89,6 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
-
     [[params.tiles.showcase]]
       title = "Webmail"
       subtitle = "Read my mail"
@@ -97,7 +96,7 @@ disqusShortname = ""
       url = "https://webmail.whyrl.fr"
 
     [[params.tiles.showcase]]
-      title = "Sonerezh"
+      title = "Music (Koel)"
       subtitle = "Listening to music"
       image = "sonerezh.jpg"
       url = "https://music.ks.whyrl.fr"
@@ -113,6 +112,18 @@ disqusShortname = ""
       subtitle = "Catalog of Movie seen"
       image = "movie.jpg"
       url = "https://moviecat.ks.whyrl.fr"
+
+    [[params.tiles.showcase]]
+      title = "Portainer"
+      subtitle = "Manage docker containers"
+      image = "docker.png"
+      url = "https://portainer.whyrl.fr"
+    
+    [[params.tiles.showcase]]
+      title = "Domotique"
+      subtitle = "Manage my home with home assistant"
+      image = "homeassistant.png"
+      url = "https://hassio.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "NAS"
