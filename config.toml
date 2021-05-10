@@ -90,22 +90,22 @@ disqusShortname = ""
     enable = true
     # Display your showcases here.
     [[params.tiles.showcase]]
+      title = "Blog"
+      subtitle = "My personnal blog"
+      image = "blog.jpg"
+      url = "https://blog.whyrl.fr"
+
+    [[params.tiles.showcase]]
+      title = "Forum"
+      subtitle = "My forum, associated to the blog for comments"
+      image = "forum.jpg"
+      url = "https://forum.whyrl.fr"
+
+    [[params.tiles.showcase]]
       title = "Webmail"
       subtitle = "Read my mail"
       image = "mail.jpg"
       url = "https://webmail.whyrl.fr"
-
-    [[params.tiles.showcase]]
-      title = "Music (Koel)"
-      subtitle = "Listening to music"
-      image = "sonerezh.jpg"
-      url = "https://music.ks.whyrl.fr"
-
-    [[params.tiles.showcase]]
-      title = "Photo"
-      subtitle = "Quick Photo rendering from synology's backup"
-      image = "photo.jpg"
-      url = "https://photo.ks.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "MovieCat"
@@ -135,7 +135,7 @@ disqusShortname = ""
       title = "Grafana"
       subtitle = "View metrics of IOT"
       image = "grafana.jpg"
-      url = "https://grafana.ks.whyrl.fr"
+      url = "https://grafana.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Wigo"
