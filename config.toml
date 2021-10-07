@@ -40,7 +40,7 @@ disqusShortname = ""
     subtitle = "site web personnel"
     menu = "Menu"
     # Optional logo as brand stored in img/
-    # logo = "logo.png"
+    # logo = "logo.webp"
 
     [[params.navigation.links]]
       name = "Home"
@@ -78,7 +78,7 @@ disqusShortname = ""
 
   # Banner section
   [params.banner]
-    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # To change the background image on the homepage banner, replace 'banner.webp' in
     # the 'static/img' folder.
     title = "Bienvenue sur le site de Whyrl"
     subtitle = "Mon site pour lié tous mes autres services."
@@ -92,49 +92,49 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Blog"
       subtitle = "Mon blog technique"
-      image = "blog.jpg"
+      image = "blog.webp"
       url = "https://blog.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Webmail"
       subtitle = "Lecteur de mail"
-      image = "mail.jpg"
+      image = "mail.webp"
       url = "https://webmail.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Portainer"
       subtitle = "Gestion des containers"
-      image = "docker.png"
+      image = "docker.webp"
       url = "https://portainer.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Domotique"
       subtitle = "Gestion de la domotique"
-      image = "homeassistant.png"
+      image = "homeassistant.webp"
       url = "https://hassio.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "NAS"
       subtitle = "Gestion du NAS"
-      image = "nas.jpg"
+      image = "nas.webp"
       url = "https://nas.whyrl.fr/"
 
     [[params.tiles.showcase]]
       title = "Grafana"
       subtitle = "Vue des statistiques et autres via grafana"
-      image = "grafana.jpg"
+      image = "grafana.webp"
       url = "https://grafana.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Wigo"
       subtitle = "Monitoring des machines"
-      image = "monitoring.jpg"
+      image = "monitoring.webp"
       url = "https://wigo.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "HIDS"
       subtitle = "Detection d'intrustion, gestion de conformité et de sécurité"
-      image = "wazuh.jpg"
+      image = "wazuh.webp"
       url = "https://wazuh.whyrl.fr"
     # You can make more showcases by copy and pasting the code above
 
