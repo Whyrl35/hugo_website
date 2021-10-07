@@ -1,6 +1,6 @@
-title = "Whyrl's website"
+title = "Le site web de Whyrl"
 baseurl = "https://www.whyrl.fr/"
-languageCode = "en-us"
+languageCode = "fr-fr"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Whyrl"
-  description = "My personal website, to link all my other services on internet"
+  description = "Mon site personnel, pour lié tous mes autres services."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -37,7 +37,7 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Whyrl"
-    subtitle = "personal website"
+    subtitle = "site web personnel"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -80,9 +80,9 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Whyrl"
-    subtitle = "My personal website, to link all my other services on internet"
-    buttonText = "Get Started"
+    title = "Bonjour, mon pseudo est Whyrl"
+    subtitle = "Mon site pour lié tous mes autres services."
+    buttonText = "C'est partit"
 
 
   # Tiles Section
@@ -91,61 +91,49 @@ disqusShortname = ""
     # Display your showcases here.
     [[params.tiles.showcase]]
       title = "Blog"
-      subtitle = "My personnal blog"
+      subtitle = "Mon blog technique"
       image = "blog.jpg"
       url = "https://blog.whyrl.fr"
 
     [[params.tiles.showcase]]
-      title = "Forum"
-      subtitle = "My forum, associated to the blog for comments"
-      image = "forum.jpg"
-      url = "https://forum.whyrl.fr"
-
-    [[params.tiles.showcase]]
       title = "Webmail"
-      subtitle = "Read my mail"
+      subtitle = "Lecteur de mail"
       image = "mail.jpg"
       url = "https://webmail.whyrl.fr"
 
     [[params.tiles.showcase]]
-      title = "MovieCat"
-      subtitle = "Catalog of Movie seen"
-      image = "movie.jpg"
-      url = "https://moviecat.ks.whyrl.fr"
-
-    [[params.tiles.showcase]]
       title = "Portainer"
-      subtitle = "Manage docker containers"
+      subtitle = "Gestion des containers"
       image = "docker.png"
       url = "https://portainer.whyrl.fr"
-    
+
     [[params.tiles.showcase]]
       title = "Domotique"
-      subtitle = "Manage my home with home assistant"
+      subtitle = "Gestion de la domotique"
       image = "homeassistant.png"
       url = "https://hassio.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "NAS"
-      subtitle = "All files on NAS"
+      subtitle = "Gestion du NAS"
       image = "nas.jpg"
       url = "https://nas.whyrl.fr/"
 
     [[params.tiles.showcase]]
       title = "Grafana"
-      subtitle = "View metrics of IOT"
+      subtitle = "Vue des statistiques et autres via grafana"
       image = "grafana.jpg"
       url = "https://grafana.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "Wigo"
-      subtitle = "Monitoring assets"
+      subtitle = "Monitoring des machines"
       image = "monitoring.jpg"
       url = "https://wigo.whyrl.fr"
 
     [[params.tiles.showcase]]
       title = "HIDS"
-      subtitle = "Using Wazuh to detect intrusion"
+      subtitle = "Detection d'intrustion, gestion de conformité et de sécurité"
       image = "wazuh.jpg"
       url = "https://wazuh.whyrl.fr"
     # You can make more showcases by copy and pasting the code above
